@@ -29,10 +29,10 @@ const CONFIG = {
     PROXIO_BLOG_TEXT_1: '加入条件',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: '',
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: '',
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: '',
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_01.png', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_02.png',
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_03.png',
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_04.png',
 
 
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
