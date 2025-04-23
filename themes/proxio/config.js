@@ -161,10 +161,7 @@ const CONFIG = {
     PROXIO_ABOUT_TITLE: '关于家族',
     PROXIO_ABOUT_TEXT_1: 'We are family',
     PROXIO_ABOUT_TEXT_2:
-        '加入我们的条件：​
-        热爱《音速觉醒》这款游戏，有积极向上的游戏态度，愿意与家族成员共同进步。​
-        遵守家族规则，尊重每一位成员，具备良好的团队协作精神和沟通能力。​
-        能够保持一定的在线活跃度，积极参与家族活动。',
+        '加入我们的条件：        热爱《音速觉醒》这款游戏，有积极向上的游戏态度，愿意与家族成员共同进步。​\n       遵守家族规则，尊重每一位成员，具备良好的团队协作精神和沟通能力。\n        能够保持一定的在线活跃度，积极参与家族活动。',
     PROXIO_ABOUT_PHOTO_URL: 'https://cdn.zako.cc/r2/r2d6ca7bcb0a46f21fe1b3cb89b3246b600d33ae61.jpg',
     PROXIO_ABOUT_KEY_1: '成员数量',
     PROXIO_ABOUT_VAL_1: '30+',
