@@ -21,6 +21,25 @@ const CONFIG = {
     PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
     PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
 
+    // 关于作者区块
+    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_TITLE: '关于家族',
+    PROXIO_ABOUT_TEXT_1: 'About CHG',
+    PROXIO_ABOUT_TEXT_2:
+        '加入我们的条件：        热爱《音速觉醒》这款游戏，有积极向上的游戏态度，愿意与家族成员共同进步。​\n       遵守家族规则，尊重每一位成员，具备良好的团队协作精神和沟通能力。\n        能够保持一定的在线活跃度，积极参与家族活动。',
+    PROXIO_ABOUT_PHOTO_URL: 'https://cdn.zako.cc/r2/chg_logo.png',
+    PROXIO_ABOUT_KEY_1: '成员数量',
+    PROXIO_ABOUT_VAL_1: '30+',
+    PROXIO_ABOUT_KEY_2: '成立时间',
+    PROXIO_ABOUT_VAL_2: '200x.xx.xx',
+    PROXIO_ABOUT_KEY_3: 'XXXX',
+    PROXIO_ABOUT_VAL_3: 'xxx+',
+    PROXIO_ABOUT_KEY_4: 'XXXX',
+    PROXIO_ABOUT_VAL_4: 'xxxxxx',
+
+    PROXIO_ABOUT_BUTTON_URL: '/about',
+    PROXIO_ABOUT_BUTTON_TEXT: '关于',
+
 
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
@@ -156,24 +175,6 @@ const CONFIG = {
         { q: '怎么练双手', a: '别用单手玩' },
     ],
 
-    // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-    PROXIO_ABOUT_TITLE: '关于家族',
-    PROXIO_ABOUT_TEXT_1: 'About CHG',
-    PROXIO_ABOUT_TEXT_2:
-        '加入我们的条件：        热爱《音速觉醒》这款游戏，有积极向上的游戏态度，愿意与家族成员共同进步。​\n       遵守家族规则，尊重每一位成员，具备良好的团队协作精神和沟通能力。\n        能够保持一定的在线活跃度，积极参与家族活动。',
-    PROXIO_ABOUT_PHOTO_URL: 'https://cdn.zako.cc/r2/r2d6ca7bcb0a46f21fe1b3cb89b3246b600d33ae61.jpg',
-    PROXIO_ABOUT_KEY_1: '成员数量',
-    PROXIO_ABOUT_VAL_1: '30+',
-    PROXIO_ABOUT_KEY_2: '成立时间',
-    PROXIO_ABOUT_VAL_2: '200x.xx.xx',
-    PROXIO_ABOUT_KEY_3: 'XXXX',
-    PROXIO_ABOUT_VAL_3: 'xxx+',
-    PROXIO_ABOUT_KEY_4: 'XXXX',
-    PROXIO_ABOUT_VAL_4: 'xxxxxx',
-
-    PROXIO_ABOUT_BUTTON_URL: '/about',
-    PROXIO_ABOUT_BUTTON_TEXT: '关于',
 
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
