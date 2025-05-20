@@ -100,7 +100,15 @@ const LayoutIndex = props => {
         <>
             {/* 英雄区 */}
             {siteConfig('PROXIO_HERO_ENABLE', true, CONFIG) && <Hero {...props} />}
-            {/* 博文列表 */}
+            
+
+            {/* 家族介绍 */}
+            {siteConfig('PROXIO_ABOUT_ENABLE', true, CONFIG) && <Team />}
+
+            {/* 成员名单 */}
+            {siteConfig('PROXIO_BRANDS_ENABLE', true, CONFIG) && <Brand />}
+
+            {/* 家族公告 */}
             {siteConfig('PROXIO_BLOG_ENABLE', true, CONFIG) && (
                 <>
                     <Blog posts={posts} />
@@ -121,13 +129,6 @@ const LayoutIndex = props => {
                     'announncement text-center py-16'
                 } />
                 }
-
-            {/* 团队介绍 */}
-            {siteConfig('PROXIO_ABOUT_ENABLE', true, CONFIG) && <Team />}
-
-            {/* 合作伙伴 */}
-            {siteConfig('PROXIO_BRANDS_ENABLE', true, CONFIG) && <Brand />}
-
 
             {/* 生涯 */}
             {siteConfig('PROXIO_CAREER_ENABLE', true, CONFIG) && <Career />}
