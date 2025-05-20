@@ -2,24 +2,45 @@
  * 另一个落地页主题
  */
 const CONFIG = {
+    /*跳转页
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
     PROXIO_WELCOME_TEXT: '欢迎来到CHG华夏神明降临，点击任意位置进入', // 欢迎文字，留空则不启用
+    */
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
     PROXIO_HERO_TITLE_1: 'CHG华夏神明降临', // 英雄区文字
     PROXIO_HERO_TITLE_2: '欢迎加入', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '申请加群', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: '成员列表', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
-        'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
+        'https://r2.zako.cc/group', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
     // 英雄区配图，如需隐藏，改为空值即可 ''
     PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
-    PROXIO_HERO_BANNER_IFRAME_URL: 'https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
+    PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
+
+    // 关于作者区块
+    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_TITLE: '关于家族',
+    PROXIO_ABOUT_TEXT_1: 'About CHG',
+    PROXIO_ABOUT_TEXT_2:
+        '加入我们的条件：        热爱《音速觉醒》这款游戏，有积极向上的游戏态度，愿意与家族成员共同进步。​\n       遵守家族规则，尊重每一位成员，具备良好的团队协作精神和沟通能力。\n        能够保持一定的在线活跃度，积极参与家族活动。',
+    PROXIO_ABOUT_PHOTO_URL: 'https://cdn.zako.cc/r2/chg_logo.png',
+    PROXIO_ABOUT_KEY_1: '成员数量',
+    PROXIO_ABOUT_VAL_1: '30+',
+    PROXIO_ABOUT_KEY_2: '成立时间',
+    PROXIO_ABOUT_VAL_2: '200x.xx.xx',
+    PROXIO_ABOUT_KEY_3: 'XXXX',
+    PROXIO_ABOUT_VAL_3: 'xxx+',
+    PROXIO_ABOUT_KEY_4: 'XXXX',
+    PROXIO_ABOUT_VAL_4: 'xxxxxx',
+
+    PROXIO_ABOUT_BUTTON_URL: '/about',
+    PROXIO_ABOUT_BUTTON_TEXT: '关于',
 
 
     // 文章区块
@@ -29,10 +50,10 @@ const CONFIG = {
     PROXIO_BLOG_TEXT_1: '加入条件',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: '',
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: '',
-    PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: '',
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_01.png', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_02.png',
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_03.png',
+    PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_04.png',
 
 
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
@@ -96,16 +117,16 @@ const CONFIG = {
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://zakooo.notion.site/x1-1f94684a49cc80e3a067f9fdb9f54231?pvs=4'
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
                 '？？？？？？？？？？？~',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://file.notion.so/f/f/2b5d16f7-7f5e-4eb1-b3a3-575258339d6b/232f5081-44a4-47fb-afed-0ccf06402aab/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png?table=block&id=1f94684a-49cc-8064-aa4f-ddcd7c51cdc5&spaceId=2b5d16f7-7f5e-4eb1-b3a3-575258339d6b&expirationTimestamp=1747764000000&signature=yz3whaN353HJ9UfXl-jqu6HSOhshzH9XAfdWci26A-A&downloadName=%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png',
+                'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://zakooo.notion.site/x1-1f94684a49cc80e3a067f9fdb9f54231?pvs=4'
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -114,33 +135,33 @@ const CONFIG = {
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://zakooo.notion.site/x1-1f94684a49cc80e3a067f9fdb9f54231?pvs=4'
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
                 'O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O O(∩_∩)O ',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://file.notion.so/f/f/2b5d16f7-7f5e-4eb1-b3a3-575258339d6b/232f5081-44a4-47fb-afed-0ccf06402aab/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png?table=block&id=1f94684a-49cc-8064-aa4f-ddcd7c51cdc5&spaceId=2b5d16f7-7f5e-4eb1-b3a3-575258339d6b&expirationTimestamp=1747764000000&signature=yz3whaN353HJ9UfXl-jqu6HSOhshzH9XAfdWci26A-A&downloadName=%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png',
+                'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://zakooo.notion.site/x1-1f94684a49cc80e3a067f9fdb9f54231?pvs=4'
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
                 'o(*￣▽￣*)ブo(*￣▽￣*)ブo(*￣▽￣*)ブo(*￣▽￣*)ブo(*￣▽￣*)ブo(*￣▽￣*)ブo(*￣▽￣*)ブo(*￣▽￣*)ブo(*￣▽￣*)ブ',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://file.notion.so/f/f/2b5d16f7-7f5e-4eb1-b3a3-575258339d6b/232f5081-44a4-47fb-afed-0ccf06402aab/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png?table=block&id=1f94684a-49cc-8064-aa4f-ddcd7c51cdc5&spaceId=2b5d16f7-7f5e-4eb1-b3a3-575258339d6b&expirationTimestamp=1747764000000&signature=yz3whaN353HJ9UfXl-jqu6HSOhshzH9XAfdWci26A-A&downloadName=%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png',
+                '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://zakooo.notion.site/x1-1f94684a49cc80e3a067f9fdb9f54231?pvs=4'
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT: '-.-',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://file.notion.so/f/f/2b5d16f7-7f5e-4eb1-b3a3-575258339d6b/232f5081-44a4-47fb-afed-0ccf06402aab/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png?table=block&id=1f94684a-49cc-8064-aa4f-ddcd7c51cdc5&spaceId=2b5d16f7-7f5e-4eb1-b3a3-575258339d6b&expirationTimestamp=1747764000000&signature=yz3whaN353HJ9UfXl-jqu6HSOhshzH9XAfdWci26A-A&downloadName=%E5%91%A8%E6%9D%B0%E4%BC%A6-%E7%BD%91%E9%A1%B5%E9%80%82%E9%85%8D.png',
+                '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'XXX站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://zakooo.notion.site/x1-1f94684a49cc80e3a067f9fdb9f54231?pvs=4'
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
         }
     ],
 
@@ -156,24 +177,6 @@ const CONFIG = {
         { q: '怎么练双手', a: '别用单手玩' },
     ],
 
-    // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-    PROXIO_ABOUT_TITLE: '关于家族',
-    PROXIO_ABOUT_TEXT_1: 'About CHG',
-    PROXIO_ABOUT_TEXT_2:
-        '加入我们的条件：        热爱《音速觉醒》这款游戏，有积极向上的游戏态度，愿意与家族成员共同进步。​\n       遵守家族规则，尊重每一位成员，具备良好的团队协作精神和沟通能力。\n        能够保持一定的在线活跃度，积极参与家族活动。',
-    PROXIO_ABOUT_PHOTO_URL: 'https://cdn.zako.cc/r2/r2d6ca7bcb0a46f21fe1b3cb89b3246b600d33ae61.jpg',
-    PROXIO_ABOUT_KEY_1: '成员数量',
-    PROXIO_ABOUT_VAL_1: '30+',
-    PROXIO_ABOUT_KEY_2: '成立时间',
-    PROXIO_ABOUT_VAL_2: '200x.xx.xx',
-    PROXIO_ABOUT_KEY_3: 'XXXX',
-    PROXIO_ABOUT_VAL_3: 'xxx+',
-    PROXIO_ABOUT_KEY_4: 'XXXX',
-    PROXIO_ABOUT_VAL_4: 'xxxxxx',
-
-    PROXIO_ABOUT_BUTTON_URL: '/about',
-    PROXIO_ABOUT_BUTTON_TEXT: '关于',
 
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
