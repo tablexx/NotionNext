@@ -197,6 +197,10 @@ const CONFIG = {
                     title: '音速助手',
                     href: 'https://www.bing.com'
                 }
+                {
+                    title: '音速觉醒贴吧',
+                    href: 'https://www.bing.com'
+                }
             ]
         },
         {
@@ -204,7 +208,7 @@ const CONFIG = {
             menus: [
                 { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
                 {
-                    title: '族长',
+                    title: '联系族长',
                     href: 'https://www.baidu.com'
                 },
                 {
@@ -234,8 +238,8 @@ const CONFIG = {
     PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
     // 404页面的提示语
-    PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
-    PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
+    PROXIO_404_TITLE: '你给我干哪来了',
+    PROXIO_404_TEXT: '抱歉你看的网页找不着了',
     PROXIO_404_BACK: '回到主页',
 
     /*/ 页面底部的行动呼吁模块
