@@ -59,7 +59,7 @@ const CONFIG = {
 
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
-/* 特殊区块
+
     // 区块1
     PROXIO_FEATURE_ENABLE: true, // 特性区块开关
     PROXIO_FEATURE_TITLE: '待补充',
@@ -85,7 +85,6 @@ const CONFIG = {
 
     PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
-*/
 
     // 首页生涯区块
     PROXIO_CAREER_ENABLE: true, // 区块开关
@@ -149,10 +148,8 @@ const CONFIG = {
     PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
     PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
     PROXIO_FAQS: [
-        { q: '管家怎么用？', a: '不知道' },
-        { q: '突发远近数值参考', a: '不知道啊' },
-        { q: '怎么把歌曲导出来', a: '真不知道' },
-        { q: '怎么练双手', a: '别用单手玩' },
+        { q: '阿巴阿巴', a: '阿巴阿巴' },
+        { q: '阿巴阿巴', a: '阿巴阿巴' },
     ],
 
 
@@ -164,7 +161,7 @@ const CONFIG = {
         '夜明',
         '断浪',
         '大哥哥',
-        'Alexia 叮咚',
+        'Alexia(叮咚)',
         '熙子',
         '小丑女',
         '李笑笑',
@@ -172,7 +169,7 @@ const CONFIG = {
         '欧阳颠',
         '周杰伦',
         '韩少麒',
-        'zako',
+        'zako(小卓)',
         '沁',
         '小杰',
         '皇帝',
