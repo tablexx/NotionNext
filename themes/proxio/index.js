@@ -150,13 +150,13 @@ const LayoutIndex = props => {
             {/* 产品特性 
             {siteConfig('PROXIO_FEATURE_ENABLE', true, CONFIG) && <Features />}*/}
 
-            {/* 成员展示 */}
+            {/* 成员展示 
             {siteConfig('PROXIO_TESTIMONIALS_ENABLE', true, CONFIG) && (
                 <Testimonials />
-            )}
-            {/* 常见问题 */}
-            {siteConfig('PROXIO_FAQ_ENABLE', true, CONFIG) && <FAQ />}
-
+            )}*/}
+            
+            {/* 常见问题 
+            {siteConfig('PROXIO_FAQ_ENABLE', true, CONFIG) && <FAQ />}*/}
 
             {/* 行动呼吁 */}
             {siteConfig('PROXIO_CTA_ENABLE', true, CONFIG) && <CTA />}
