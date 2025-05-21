@@ -20,7 +20,7 @@ export const Team = () => {
                     <div className='flex flex-col md:flex-row -mx-4 justify-between'>
                         {/* 左边肖像图 */}
                         <div className='mx-6 mb-6 max-w-96 border-gray-200 dark:border-[#333333] dark:bg-dark-1 border rounded-2xl overflow-hidden'>
-                            <LazyImage alt={AUTHOR} src={PROXIO_ABOUT_PHOTO_URL} className='object-cover h-full' />
+                            <LazyImage alt={AUTHOR} src={PROXIO_ABOUT_PHOTO_URL} className='object-cover' />
                         </div>
                         {/* 右侧文字说明 */}
                         <div className='flex flex-col px-4 space-y-4 mx-auto justify-between max-w-[485px]'>
