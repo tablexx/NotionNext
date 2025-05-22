@@ -117,8 +117,8 @@ const LayoutIndex = props => {
             {/* 家族介绍 */}
             {siteConfig('PROXIO_ABOUT_ENABLE', true, CONFIG) && <Team />}
 
-            {/* 成员名单 */}
-            {siteConfig('PROXIO_BRANDS_ENABLE', true, CONFIG) && <Brand />}
+            {/* 成员名单 
+            {siteConfig('PROXIO_BRANDS_ENABLE', true, CONFIG) && <Brand />}*/}
 
             {/* 家族公告 */}
             {siteConfig('PROXIO_BLOG_ENABLE', true, CONFIG) && (
