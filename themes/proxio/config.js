@@ -44,7 +44,6 @@ const CONFIG = {
     PROXIO_ABOUT_BUTTON_TEXT: '加入我们',
 
 
-/*
     // 文章区块
     PROXIO_BLOG_TEXT_1: '',
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
@@ -119,7 +118,7 @@ const CONFIG = {
                 '头像网址',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '名字',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '角色',
-            PROXIO_TESTIMONIALS_ITEM_URL: '个人页'
+            PROXIO_TESTIMONIALS_ITEM_URL: '个人页',
    
     PROXIO_TESTIMONIALS_ITEMS: [
         {
@@ -180,7 +179,7 @@ const CONFIG = {
         '萌萌哒',
         '菜菜（已离队）'
     ],
-*/
+
     PROXIO_FOOTER_SLOGAN: '啦啦啦啦啦',
 
     // 页脚三列菜单组
@@ -207,6 +206,7 @@ const CONFIG = {
                     title: '考核群',
                     href: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uv-I9anXGodK8e3taEthzm1VSKoAuD8X&authKey=iMdK3QNvodMPvaSLWIKELzFv1ROuCv1DbcY2dwe6JqkOKrPJ2hFup6pBCk6NaDQi&noverify=0&group_code=1023548070'
                 },
+
             ]
         }],
 
@@ -239,7 +239,7 @@ const CONFIG = {
     */
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-    PROXIO_POST_REDIRECT_URL: 'https://r2.zako.cc', // 重定向域名
+    PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
     PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG

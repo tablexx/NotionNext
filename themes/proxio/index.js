@@ -101,6 +101,13 @@ const LayoutIndex = props => {
             {/* 英雄区 */}
             {siteConfig('PROXIO_HERO_ENABLE', true, CONFIG) && <Hero {...props} />}
             
+
+            {/* 家族介绍 */}
+            {siteConfig('PROXIO_ABOUT_ENABLE', true, CONFIG) && <Team />}
+
+            {/* 成员名单 */}
+            {siteConfig('PROXIO_BRANDS_ENABLE', true, CONFIG) && <Brand />}
+
             {/* 按钮组 */}
             <ul className='mb-10 flex flex-wrap items-center justify-center gap-5'>
                 {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, config) && (
@@ -114,48 +121,42 @@ const LayoutIndex = props => {
                 )}
             </ul>
 
-            {/* 家族介绍 */}
-            {siteConfig('PROXIO_ABOUT_ENABLE', true, CONFIG) && <Team />}
-
-            {/* 成员名单 
-            {siteConfig('PROXIO_BRANDS_ENABLE', true, CONFIG) && <Brand />}*/}
-
             {/* 家族公告 */}
             {siteConfig('PROXIO_BLOG_ENABLE', true, CONFIG) && (
                 <>
                     <Blog posts={posts} />
                     {/* 更多文章按钮 */}
-                    {/*<div className='container mx-auto flex justify-end mb-4'>
+                    {<div className='container mx-auto flex justify-end mb-4'>
                         <Link className='text-lg underline' href={'/archive'}>
                             <span>{locale.COMMON.MORE}</span>
                             <i className='ml-2 fas fa-arrow-right' />
                         </Link>
-                    </div>*/}
+                    </div>}
                 </>
             )}
 
-            {/* 公告 
+            {/* 公告 */}
             {siteConfig('PROXIO_ANNOUNCEMENT_ENABLE', true, CONFIG) && <Announcement
                 post={props?.notice}
                 className={
                     'announncement text-center py-16'
                 } />
                 }
-            */}
+            
 
-            {/* 生涯 
-            {siteConfig('PROXIO_CAREER_ENABLE', true, CONFIG) && <Career />}*/}
+            {/* 生涯 */}
+            {siteConfig('PROXIO_CAREER_ENABLE', true, CONFIG) && <Career />}
 
-            {/* 产品特性 
-            {siteConfig('PROXIO_FEATURE_ENABLE', true, CONFIG) && <Features />}*/}
+            {/* 产品特性 */}
+            {siteConfig('PROXIO_FEATURE_ENABLE', true, CONFIG) && <Features />}
 
             {/* 成员展示 */}
             {siteConfig('PROXIO_TESTIMONIALS_ENABLE', true, CONFIG) && (
                 <Testimonials />
             )}
+            
             {/* 常见问题 */}
             {siteConfig('PROXIO_FAQ_ENABLE', true, CONFIG) && <FAQ />}
-
 
             {/* 行动呼吁 */}
             {siteConfig('PROXIO_CTA_ENABLE', true, CONFIG) && <CTA />}
