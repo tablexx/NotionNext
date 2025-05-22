@@ -12,6 +12,18 @@ const CONFIG = {
     PROXIO_HERO_TITLE_1: 'CHG华夏神明降临', // 英雄区文字
     PROXIO_HERO_TITLE_2: '欢迎加入', // 英雄区文字
 
+    // 成员列表  英雄区两个按钮，如果TEXT留空则隐藏按钮
+    PROXIO_HERO_BUTTON_1_TEXT: '成员列表', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_URL:
+        'https://r2.zako.cc/group', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
+
+    // 英雄区配图，如需隐藏，改为空值即可 ''
+    PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
+    PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
+    
     // 关于家族
     PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于家族',
@@ -28,23 +40,11 @@ const CONFIG = {
     PROXIO_ABOUT_KEY_4: '考核Q群',
     PROXIO_ABOUT_VAL_4: '1023548070',
 
-
     PROXIO_ABOUT_BUTTON_URL: '/examine',
     PROXIO_ABOUT_BUTTON_TEXT: '加入我们',
 
 
-    // 成员列表  英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '成员列表', // 英雄区按钮
-    PROXIO_HERO_BUTTON_1_URL:
-        'https://r2.zako.cc/group', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
-
-    // 英雄区配图，如需隐藏，改为空值即可 ''
-    PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
-    PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
-
+/*
     // 文章区块
     PROXIO_BLOG_TEXT_1: '',
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
@@ -57,10 +57,9 @@ const CONFIG = {
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_03.png',
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_04.png',
 
-
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
-/*
+
     // 区块1
     PROXIO_FEATURE_ENABLE: true, // 特性区块开关
     PROXIO_FEATURE_TITLE: '待补充',
@@ -112,6 +111,7 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
 
     // 成员列表 不支持CONFIG和环境变量，需要一一修改此处代码。
+    
     
             PROXIO_TESTIMONIALS_ITEM_TEXT:
                 '自我介绍',
@@ -183,7 +183,6 @@ const CONFIG = {
 */
     PROXIO_FOOTER_SLOGAN: '啦啦啦啦啦',
 
-
     // 页脚三列菜单组
     // 页脚菜单
     PROXIO_FOOTER_LINKS: [
@@ -197,10 +196,6 @@ const CONFIG = {
                 {
                     title: '音速助手',
                     href: 'https://www.bing.com'
-                },
-                {
-                    title: '音速觉醒贴吧',
-                    href: 'https://www.bing.com'
                 }
             ]
         },
@@ -209,21 +204,9 @@ const CONFIG = {
             menus: [
                 { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
                 {
-                    title: '联系族长',
-                    href: 'https://www.baidu.com'
-                },
-                {
                     title: '考核群',
-                    href: 'https://www.baidu.com'
+                    href: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uv-I9anXGodK8e3taEthzm1VSKoAuD8X&authKey=iMdK3QNvodMPvaSLWIKELzFv1ROuCv1DbcY2dwe6JqkOKrPJ2hFup6pBCk6NaDQi&noverify=0&group_code=1023548070'
                 },
-                {
-                    title: '网站反馈',
-                    href: 'https://www.baidu.com'
-                },
-                {
-                    title: '其它建议',
-                    href: 'https://www.baidu.com'
-                }
             ]
         }],
 
@@ -239,11 +222,11 @@ const CONFIG = {
     PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
     // 404页面的提示语
-    PROXIO_404_TITLE: '你给我干哪来了',
-    PROXIO_404_TEXT: '抱歉你看的网页找不着了',
+    PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
+    PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
     PROXIO_404_BACK: '回到主页',
 
-    / 页面底部的行动呼吁模块
+    /*/ 页面底部的行动呼吁模块
     PROXIO_CTA_ENABLE: true,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '',
@@ -253,10 +236,10 @@ const CONFIG = {
     PROXIO_CTA_BUTTON_URL:
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我',
-    
+    */
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-    PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+    PROXIO_POST_REDIRECT_URL: 'https://r2.zako.cc', // 重定向域名
     PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
