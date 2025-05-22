@@ -101,6 +101,18 @@ const LayoutIndex = props => {
             {/* 英雄区 */}
             {siteConfig('PROXIO_HERO_ENABLE', true, CONFIG) && <Hero {...props} />}
             
+            {/* 按钮组 */}
+            <ul className='mb-10 flex flex-wrap items-center justify-center gap-5'>
+                {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, config) && (
+                    <li>
+                        <Link
+                            href={siteConfig('PROXIO_HERO_BUTTON_1_URL', '')}
+                            className='inline-flex items-center justify-center rounded-2xl bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2'>
+                            {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, config)}
+                        </Link>
+                    </li>
+                )}
+            </ul>
 
             {/* 家族介绍 */}
             {siteConfig('PROXIO_ABOUT_ENABLE', true, CONFIG) && <Team />}
