@@ -19,7 +19,7 @@ const CONFIG = {
     PROXIO_ABOUT_TEXT_2:
         '加入我们的条件：        热爱《音速觉醒》这款游戏，有积极的游戏态度，愿意与家族成员共同进步。​\n       遵守家族规则，尊重每一位成员，具备良好的团队精神。\n        能够保持一定的在线活跃度，积极参与家族活动。',
     PROXIO_ABOUT_PHOTO_URL: 'https://cdn.zako.cc/r2/chg_logo.png',
-    PROXIO_ABOUT_KEY_1: '成立时间',
+    PROXIO_ABOUT_KEY_1: '成员数量成立时间',
     PROXIO_ABOUT_VAL_1: '2024.11.09',
     PROXIO_ABOUT_KEY_2: '族长',
     PROXIO_ABOUT_VAL_2: '韩少麒',
@@ -28,9 +28,8 @@ const CONFIG = {
     PROXIO_ABOUT_KEY_4: '考核Q群',
     PROXIO_ABOUT_VAL_4: '1023548070',
 
-
     PROXIO_ABOUT_BUTTON_URL: '/examine',
-    PROXIO_ABOUT_BUTTON_TEXT: '加入我们',
+    PROXIO_ABOUT_BUTTON_TEXT: '考核标准',
 
 
     // 成员列表  英雄区两个按钮，如果TEXT留空则隐藏按钮
@@ -60,7 +59,7 @@ const CONFIG = {
 
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
-/*
+
     // 区块1
     PROXIO_FEATURE_ENABLE: true, // 特性区块开关
     PROXIO_FEATURE_TITLE: '待补充',
@@ -112,6 +111,7 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
 
     // 成员列表 不支持CONFIG和环境变量，需要一一修改此处代码。
+    /*
     
             PROXIO_TESTIMONIALS_ITEM_TEXT:
                 '自我介绍',
@@ -120,7 +120,7 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '名字',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '角色',
             PROXIO_TESTIMONIALS_ITEM_URL: '个人页'
-   
+   */
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -156,33 +156,46 @@ const CONFIG = {
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
     PROXIO_BRANDS: [
-        '蛋凉',
-        '酱油',
-        '夜明',
-        '断浪',
-        '大哥哥',
-        'Alexia(叮咚)',
-        '熙子',
-        '小丑女',
-        '李笑笑',
-        '李秀玲',
-        '欧阳颠',
-        '周杰伦',
-        '韩少麒',
-        'zako(小卓)',
-        '沁',
-        '小杰',
+        '[福建]韩少麒',
+        '[贵州]李笑笑',
+        '[湖南]李跳跳',
         '皇帝',
-        '崎晓',
-        '李跳跳',
-        '东东',
-        '风车',
+        '断浪',
+        '小丑女',
+        '[四川]夜明',
+        '[广东]Eugene_1',
+        '[广东]熙子',
+        '[山西]李秀玲',
+        '[内蒙]乐乐',
+        '[湖北]卧龙',
+        '[河北]zero',
+        '[广东]周杰伦',
+        '[广东]哇浪',
+        '[重庆]风车',
+        '[广东]欧阳癫',
+        '[潜水]GJ',
+        '[潜水]轻微',
+        '[海南]七合',
+        '[潜水]有药',
+        '[CH.G]酱油',
+        '[江苏]彭于晏',
+        '[广东]李晓',
+        '[辽宁]街角',
+        '[河南]Alexia',
+        '[辽宁]东东',
+        '[潜水]夏天问',
+        '[潜水]酒精',
+        '[潜水]叶子',
+        '[重庆]崎晓',
+        '[湖南]小杰',
         '萌萌哒',
-        '菜菜（已离队）'
+        '蛋凉',
+        '沁',
+        '[广东]zako',
+        '[福建]圈圈',
     ],
-*/
-    PROXIO_FOOTER_SLOGAN: '啦啦啦啦啦',
 
+    PROXIO_FOOTER_SLOGAN: '啦啦啦啦啦',
 
     // 页脚三列菜单组
     // 页脚菜单
@@ -240,7 +253,7 @@ const CONFIG = {
 
     // 404页面的提示语
     PROXIO_404_TITLE: '你给我干哪来了',
-    PROXIO_404_TEXT: '抱歉你看的网页找不着了',
+    PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
     PROXIO_404_BACK: '回到主页',
 
     / 页面底部的行动呼吁模块

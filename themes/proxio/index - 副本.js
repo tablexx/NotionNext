@@ -108,6 +108,19 @@ const LayoutIndex = props => {
             {/* 成员名单 */}
             {siteConfig('PROXIO_BRANDS_ENABLE', true, CONFIG) && <Brand />}
 
+            {/* 按钮组 */}
+            <ul className='mb-10 flex flex-wrap items-center justify-center gap-5'>
+                {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, config) && (
+                    <li>
+                        <Link
+                            href={siteConfig('PROXIO_HERO_BUTTON_1_URL', '')}
+                            className='inline-flex items-center justify-center rounded-2xl bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2'>
+                            {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, config)}
+                        </Link>
+                    </li>
+                )}
+            </ul>
+
             {/* 家族公告 */}
             {siteConfig('PROXIO_BLOG_ENABLE', true, CONFIG) && (
                 <>
@@ -122,28 +135,28 @@ const LayoutIndex = props => {
                 </>
             )}
 
-            {/* 公告 
+            {/* 公告 */}
             {siteConfig('PROXIO_ANNOUNCEMENT_ENABLE', true, CONFIG) && <Announcement
                 post={props?.notice}
                 className={
                     'announncement text-center py-16'
                 } />
                 }
-            */}
+            
 
-            {/* 生涯 
-            {siteConfig('PROXIO_CAREER_ENABLE', true, CONFIG) && <Career />}*/}
+            {/* 生涯 */}
+            {siteConfig('PROXIO_CAREER_ENABLE', true, CONFIG) && <Career />}
 
-            {/* 产品特性 
-            {siteConfig('PROXIO_FEATURE_ENABLE', true, CONFIG) && <Features />}*/}
+            {/* 产品特性 */}
+            {siteConfig('PROXIO_FEATURE_ENABLE', true, CONFIG) && <Features />}
 
             {/* 成员展示 */}
             {siteConfig('PROXIO_TESTIMONIALS_ENABLE', true, CONFIG) && (
                 <Testimonials />
             )}
+            
             {/* 常见问题 */}
             {siteConfig('PROXIO_FAQ_ENABLE', true, CONFIG) && <FAQ />}
-
 
             {/* 行动呼吁 */}
             {siteConfig('PROXIO_CTA_ENABLE', true, CONFIG) && <CTA />}
