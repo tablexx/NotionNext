@@ -43,7 +43,7 @@ const CONFIG = {
     // 英雄区配图，如需隐藏，改为空值即可 ''
     PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
     PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
-/*
+
     // 文章区块
     PROXIO_BLOG_TEXT_1: '',
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
@@ -55,7 +55,7 @@ const CONFIG = {
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_02.png',
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_03.png',
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: 'https://cdn.zako.cc/r2/%E7%94%9F%E6%88%90%E7%89%B9%E5%AE%9A%E9%A3%8E%E6%A0%BC%E5%9B%BE%E7%89%87-%281%29_04.png',
-*/
+
 
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
@@ -256,7 +256,7 @@ const CONFIG = {
     PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
     PROXIO_404_BACK: '回到主页',
 
-    /*/ 页面底部的行动呼吁模块
+    / 页面底部的行动呼吁模块
     PROXIO_CTA_ENABLE: true,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '',
@@ -266,7 +266,7 @@ const CONFIG = {
     PROXIO_CTA_BUTTON_URL:
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我',
-    */
+    
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
     PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名

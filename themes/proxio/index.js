@@ -135,28 +135,28 @@ const LayoutIndex = props => {
                 </>
             )}
 
-            {/* 公告 
+            {/* 公告 */}
             {siteConfig('PROXIO_ANNOUNCEMENT_ENABLE', true, CONFIG) && <Announcement
                 post={props?.notice}
                 className={
                     'announncement text-center py-16'
                 } />
                 }
-            */}
+            
 
-            {/* 生涯 
-            {siteConfig('PROXIO_CAREER_ENABLE', true, CONFIG) && <Career />}*/}
+            {/* 生涯 */}
+            {siteConfig('PROXIO_CAREER_ENABLE', true, CONFIG) && <Career />}
 
-            {/* 产品特性 
-            {siteConfig('PROXIO_FEATURE_ENABLE', true, CONFIG) && <Features />}*/}
+            {/* 产品特性 */}
+            {siteConfig('PROXIO_FEATURE_ENABLE', true, CONFIG) && <Features />}
 
-            {/* 成员展示 
+            {/* 成员展示 */}
             {siteConfig('PROXIO_TESTIMONIALS_ENABLE', true, CONFIG) && (
                 <Testimonials />
-            )}*/}
+            )}
             
-            {/* 常见问题 
-            {siteConfig('PROXIO_FAQ_ENABLE', true, CONFIG) && <FAQ />}*/}
+            {/* 常见问题 */}
+            {siteConfig('PROXIO_FAQ_ENABLE', true, CONFIG) && <FAQ />}
 
             {/* 行动呼吁 */}
             {siteConfig('PROXIO_CTA_ENABLE', true, CONFIG) && <CTA />}
