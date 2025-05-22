@@ -210,7 +210,7 @@ const CONFIG = {
                 {
                     title: '音速助手',
                     href: 'https://www.bing.com'
-                }
+                },
                 {
                     title: '音速觉醒贴吧',
                     href: 'https://www.bing.com'
