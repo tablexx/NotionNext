@@ -92,29 +92,29 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
+                '喵喵喵',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
+                'https://github.com/tablexx/NotionNext/blob/main/docs/%E9%9F%A9%E5%B0%91%E9%BA%92.png',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '韩少麒 ',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '族长',
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://r2.zako.cc/1f94684a49cc80ef9f9bc347f9463578'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
+                '汪汪汪',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                '/avatar.png',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
+                'https://github.com/tablexx/NotionNext/blob/main/docs/%E5%91%A8%E6%9D%B0%E4%BC%A6.png',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '周杰伦',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '月亮炸鱼大神',
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://r2.zako.cc/1fa4684a49cc8059bc3ace49d9e976dc'
         },
         {
-            PROXIO_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
+            PROXIO_TESTIMONIALS_ITEM_TEXT: '嘤嘤嘤',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                '/avatar.png',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
+                'https://raw.githubusercontent.com/tablexx/NotionNext/refs/heads/main/docs/alexia.png',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Alex',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '防emo队长',
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://r2.zako.cc/1fa4684a49cc80be9315ea6079bc9f58'
         }
     ],
 
