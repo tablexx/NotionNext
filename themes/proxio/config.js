@@ -167,35 +167,26 @@ const CONFIG = {
             name: '友情链接',
             menus: [
                 {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
+                    title: '音速管家（广告位招租）',
+                    href: ''
                 },
                 {
-                    title: 'NotionNext',
-                    href: 'https://www.tangly1024.com'
+                    title: '音速觉醒吧',
+                    href: 'https://tieba.baidu.com/f?ie=utf-8&kw=%E9%9F%B3%E9%80%9F%E8%A7%89%E9%86%92'
                 }
             ]
         },
         {
-            name: '开发者',
+            name: '传送门',
             menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
                 {
-                    title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+                    title: '考核群',
+                    href: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Z9IkBYsJvSLvJGSyp8ytEAaPuD3EJNyr&authKey=p5%2BJY52Vt5B9tFI13i2tlfCMRj8NTeRC%2F9uZBtFF9TSXf5mu1YWx8h9rMN48xCpR&noverify=0&group_code=1023548070'
                 },
                 {
-                    title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+                    title: '联系族长',
+                    href: 'https://r2.zako.cc/1f94684a49cc80ef9f9bc347f9463578'
                 },
-                {
-                    title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
-                },
-                {
-                    title: '关于作者',
-                    href: 'https://blog.tangly1024.com/about'
-                }
             ]
         }],
 
@@ -204,8 +195,8 @@ const CONFIG = {
     PROXIO_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
     PROXIO_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
 
-    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '版权声明',
+    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/banquan',
 
     PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
     PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
