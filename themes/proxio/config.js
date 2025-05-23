@@ -150,7 +150,7 @@ const CONFIG = {
     PROXIO_ABOUT_BUTTON_TEXT: '考核标准',
 
     // 横向滚动文字
-    PROXIO_BRANDS_ENABLE: true, // 滚动文字
+    PROXIO_BRANDS_ENABLE: false, // 滚动文字
     PROXIO_BRANDS: [
         'Web Design',
         'Logo Design',
@@ -216,18 +216,18 @@ const CONFIG = {
     PROXIO_404_BACK: '回到主页',
 
     // 页面底部的行动呼吁模块
-    PROXIO_CTA_ENABLE: true,
+    PROXIO_CTA_ENABLE: false,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
     PROXIO_CTA_DESCRIPTION:
         '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
-    PROXIO_CTA_BUTTON: true, // 是否显示按钮
+    PROXIO_CTA_BUTTON: false, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我',
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-    PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+    PROXIO_POST_REDIRECT_URL: 'https://r2.zako.cc', // 重定向域名
     PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
